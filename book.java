@@ -1,6 +1,7 @@
 class Book{
 	private int bookId;
 	private String name;
+	private String author;
 	
 	public void get(){
 		this.bookId = bookId;
@@ -16,4 +17,10 @@ class Book{
 	public int set(name){
 		return name;
 	}
+	public void get(){
+		this.author =author;
+		
+	}
+	public int set(author){
+		return author;
 	}
